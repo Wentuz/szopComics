@@ -3,10 +3,23 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <meta http-equiv="refresh" content="0;home/home.php">
-    <title>Document</title>
+
+    <link rel="stylesheet" type="text/css" href="style/index.css">
+    <link rel="stylesheet" type="text/css" href="style/main.css">
+
+    <link rel="icon" href="img/favicon.ico" type="image/x-icon">
+
+    <title>HomePage</title>
 </head>
 <body>
-    Index lol
+
+    <?php 
+
+    include('contents/navbar.php');
+    include('contents/home.php');
+    include('contents/footer.php'); 
+
+    ?>
+
 </body>
 </html>

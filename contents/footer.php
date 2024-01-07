@@ -1,7 +1,5 @@
 <!-- footer -->
 
 <footer>
-    <p>&copy; <?php echo date("Y"); ?> Your Website</p>
-    mhmgg
-    <p>yes</p>
+    <p>&copy; <?php echo date("Y"); ?> PlaceholderName lul</p>
 </footer>

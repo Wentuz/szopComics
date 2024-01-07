@@ -1,16 +1,19 @@
 <!-- home -->
+<div class="basic">
+    <section>
+        
+        <div class="centerDiv">
+                    <?php
 
-<section>
-    <?php
+            $page = 'Home Page !';
+            $user = 'John';
 
-    $page = 'Home Page !';
-    $user = 'John';
-    
-    echo "<h2>" . $page . "</h2>";
-    echo $user;
+            echo "<h2>" . $page . "</h2>";
+            echo $user;
 
-    ?>
+            ?>
+            <img class="mainImg" src="img/cat.jpg" alt="TestCat">
+        </div>
 
-    <img src="img/cat.jpg" alt="TestCat">
-    what
-</section>
+    </section>
+</div>

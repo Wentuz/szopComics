@@ -27,6 +27,8 @@
     <title>HomePage</title>
 </head>
 <body>
+    
+    <img class="logo"src="img/logo.jpg" alt="logo">
 
     <?php 
     include('contents/navbar.php');

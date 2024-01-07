@@ -1,0 +1,22 @@
+.gallery{
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    display: flex;
+}
+.galButton{
+    font-family: 'Tektur', sans-serif;
+    padding: 1vw 2vw;
+    font-size: 1.5vw;
+    cursor: pointer;
+    border: none;
+    border-radius: 0.5vw;
+    display: block;
+    background-color: transparent;
+    color: whitesmoke;
+    padding: 14px 16px;
+}
+.galButton:hover {
+    background-color: #d7d5e3;
+    color: black;
+}

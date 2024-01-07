@@ -34,14 +34,19 @@
     include('contents/navbar.php');
     ?>
     
+    <main>
+
     <section id="whereAmI">
         <?php 
             include('contents/home.php');
         ?>
     </section>
 
+    </main>
+
     <?php 
     include('contents/footer.php');
     ?>
+
 </body>
 </html>

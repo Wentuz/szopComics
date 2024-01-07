@@ -1,5 +1,3 @@
-alert("Loaded");
-
 let page = 0;
 
 function nextPage(){
@@ -7,6 +5,6 @@ function nextPage(){
     document.getElementById("whatPage").textContent = page;
 }
 function prevPage(){
-    page++;
+    page--;
     document.getElementById("whatPage").textContent = page;
 }

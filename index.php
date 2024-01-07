@@ -13,7 +13,6 @@
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Tektur&display=swap" rel="stylesheet">
 
-
     <script>
         function navFunc(where) {
         fetch('contents/' + where + '.php')
@@ -24,10 +23,12 @@
         }
     </script>
 
+    <script src="script/comicPage.js"></script>
+    
     <title>HomePage</title>
 </head>
 <body>
-    
+
     <img class="logo"src="img/logo.jpg" alt="logo">
 
     <?php 

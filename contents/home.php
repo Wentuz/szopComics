@@ -1,7 +1,16 @@
-<!-- home.php -->
+<!-- home -->
 
 <section>
-    <h2>Homepage</h2>
-    <p>meow</p>
+    <?php
+
+    $page = 'Home Page !';
+    $user = 'John';
+    
+    echo "<h2>" . $page . "</h2>";
+    echo $user;
+
+    ?>
+
     <img src="img/cat.jpg" alt="TestCat">
+    what
 </section>

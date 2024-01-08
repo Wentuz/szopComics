@@ -20,3 +20,21 @@
     background-color: #d7d5e3;
     color: black;
 }
+
+.centerDiv{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.bigText{
+    font-size: 3vw;
+}
+.medText{
+    font-size: 2.5vw;
+}
+.homeArt{
+    padding: 5vw;
+}
+.fixUp{
+    padding-top: 0;
+}

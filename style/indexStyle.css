@@ -15,6 +15,9 @@ section{
     padding: 0.5vw;
 }
 
+.logoHolder {
+    display: flex;
+}
 /* NAVBAR */
 .navbarContainer{
     text-align: center;
@@ -62,7 +65,7 @@ li {
 }
 
 /* IMAGES */
-.mainImg {
+.mainImg, .comicImg {
     box-shadow: 0.5vw 0.5vw 0.5vw black;
     max-width: 100%;
     height: auto;

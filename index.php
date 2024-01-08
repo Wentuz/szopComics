@@ -28,8 +28,10 @@
     <title>HomePage</title>
 </head>
 <body>
-
-    <img class="logo"src="img/logo.jpg" alt="logo">
+    <div class="logoHolder">
+        <img class="logo"src="img/logo.jpg" alt="logo">
+        <h1 class="bigText">RACoomic !</h1>
+    </div>
 
     <?php 
     include('contents/navbar.php');

@@ -8,6 +8,8 @@
         </div>
         <button type="button" onclick="nextPage()" class="galButton">></button>
     </section>
-    <div id="whatPage">10</div>
+    <div class="centerDiv">
+        <div id="whatPage">10</div>
+    </div>
    
 </div>

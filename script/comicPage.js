@@ -1,24 +1,36 @@
+
 let page = 1;
+
+let maxPages = 3;
+
 var img = document.getElementById("comicImg");
-//img.src = page + '.jpg';
 console.log(img);
 function nextPage(){
     page++;
-    document.getElementById("whatPage").textContent = page;
-    img = "./comics/kitus_adventures/" + page + '.jpg';
-
-    if (page > 2){
+    if (page > maxPages){
         page--;
     }
-
-    document.getElementById("comicImg").src = img;
+    updateComicPage();
 }
 function prevPage(){
     page--;
-    if (page < 1){
+    if (page <= 0){
         page++;
     }
+    updateComicPage();
+}
+function firstPage(){
+    page = 1;
+    updateComicPage();
+}
+function lastPage(){
+    page = maxPages;
+    updateComicPage();
+}
+function updateComicPage() {
     document.getElementById("whatPage").textContent = page;
-    img = "./comics/kitus_adventures/" + page + '.jpg';
+    img = page + "/" + page + '.jpg';
     document.getElementById("comicImg").src = img;
+
+    alert()
 }

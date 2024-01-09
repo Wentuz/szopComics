@@ -44,3 +44,17 @@
 .links{
     size: 50%;
 }
+.comSel:hover{
+    color: green;
+}
+.comSel:visited{
+    color: wheat;
+}
+#pageNum{
+    background-color: transparent;
+    color: white;
+    text-align: center;
+    width: 50%;
+    border: 2px solid white;
+    border-radius: 20px;
+}

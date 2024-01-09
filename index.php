@@ -13,23 +13,13 @@
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Tektur&display=swap" rel="stylesheet">
 
-    <script>
-        function navFunc(where) {
-        fetch('contents/' + where + '.php')
-            .then(response => response.text())
-            .then(data => {
-                document.getElementById("whereAmI").innerHTML = data;
-            })
-        }
-    </script>
-
-    <script src="script/comicPage.js"></script>
+    <script src="script/navScript.js"></script>
     
     <title>HomePage</title>
 </head>
 <body>
     <div class="logoHolder">
-        <img class="logo"src="img/logo.jpg" alt="logo">
+        <img class="logo"src="img/logo.png" alt="logo">
         <h1 class="bigText">RACoomic !</h1>
     </div>
 
@@ -39,11 +29,40 @@
     
     <main>
 
-    <section id="whereAmI">
-        <?php 
-            include('contents/home.php');
-        ?>
+    <div class="basic">
+    <section>
+        <div class="centerDiv">
+            <h2 class="medText">Comic list</h2>
+        </div>
+        
+        <section class="comicSection">
+            <div class="centerDiv">
+                <article class="homeArt fixUp">
+                    <a class="comSel" href="comics/kitus_adventures/read.php"><h2>Kitus adventures</h2></a>
+                    <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Numquam, in?</p>
+                    <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Consectetur</p>
+                </article>
+                <article class="homeArt" style="padding: 0; margin: 0;">
+                    <p><img class="comicImg" src="img/cat.jpg" alt="TestCat"></p>
+                </article>
+            </div>
+        </section>
+
+        <section class="comicSection">
+            <div class="centerDiv">
+                <article class="homeArt fixUp">
+                    <h2>Example 2</h2>
+                    <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Numquam, in?</p>
+                    <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Consectetur</p>
+                </article>
+                <article class="homeArt" style="padding: 0; margin: 0;">
+                    <p><img class="comicImg" src="img/cat.jpg" alt="TestCat"></p>
+                </article>
+            </div>
+        </section>
+
     </section>
+    </div>
 
     </main>
 

@@ -1,5 +1,5 @@
 <!-- footer -->
 
 <footer>
-    <p>&copy; <?php echo date("Y"); ?> PlaceholderName lul</p>
+    <p>&copy; <?php echo date("Y"); ?> RACoomic</p>
 </footer>

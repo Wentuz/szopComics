@@ -8,7 +8,7 @@
         <section class="comicSection">
             <div class="centerDiv">
                 <article class="homeArt fixUp">
-                    <h2>Example 2</h2>
+                    <h2>Kitus adventures</h2>
                     <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Numquam, in?</p>
                     <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Consectetur</p>
                 </article>

@@ -6,8 +6,8 @@
         </div>
         <div class="centerDiv">
             <article>
-                <h3>What ?</h3>
-                <p>I am very possibly retarded</p>
+                <h3>Why are we here ?</h3>
+                <p>Mostly out of boredom</p>
             </article>
 
         </div>

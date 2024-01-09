@@ -38,3 +38,9 @@
 .fixUp{
     padding-top: 0;
 }
+#comicImg{
+    width: 60vw;
+}
+.links{
+    size: 50%;
+}

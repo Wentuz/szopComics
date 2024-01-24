@@ -47,6 +47,9 @@
 .comSel:hover{
     color: green;
 }
+.comSel{
+    color: wheat;
+}
 .comSel:visited{
     color: wheat;
 }

@@ -37,11 +37,14 @@
     <div class="basic">
     <section>
         <div class="centerDiv">
-            <ul>
-                <li>
-                    <a class="comSel" href="comics/kitus_adventures/read.php"><h2>Kitus adventures</h2></a>
-                </li>
-            </ul>
+            <p>
+                <a class="comSel" href="comics/kitus_adventures/read.php"><h2>Kitus adventures</h2></a>
+            </p>
+        </div>
+        <div class="centerDiv">
+            <p>
+                <a class="comSel" href="comics/AFJOR/read.php"><h2>A F$cking jar of RICE</h2></a>
+            </p>
         </div>
         </section>
     </div>

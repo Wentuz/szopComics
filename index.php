@@ -43,7 +43,7 @@
                     <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Consectetur</p>
                 </article>
                 <article class="homeArt" style="padding: 0; margin: 0;">
-                    <p><img class="comicImg" src="img/cat.jpg" alt="TestCat"></p>
+                    <p><img class="comicImg" src="img/logo1.jpg" alt="TestCat"></p>
                 </article>
             </div>
         </section>
@@ -51,12 +51,12 @@
         <section class="comicSection">
             <div class="centerDiv">
                 <article class="homeArt fixUp">
-                    <h2>Example 2</h2>
-                    <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Numquam, in?</p>
-                    <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Consectetur</p>
+                    <a class="comSel" href="comics/AFJOR/read.php"><h2>A F$cking jar of RICE</h2></a>
+                    <p>If you like bad humour, poorly drawn characters and dont mind stolen memes...</p>
+                    <p>This might be just for you x3</p>
                 </article>
                 <article class="homeArt" style="padding: 0; margin: 0;">
-                    <p><img class="comicImg" src="img/cat.jpg" alt="TestCat"></p>
+                    <p><img class="comicImg" src="img/logo2.jpg" alt="AFJOR"></p>
                 </article>
             </div>
         </section>

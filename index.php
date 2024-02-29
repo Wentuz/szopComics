@@ -37,26 +37,27 @@
         
         <section class="comicSection">
             <div class="centerDiv">
-                <article class="homeArt fixUp">
+                <article class="homeArt fixUp left">
                     <a class="comSel" href="comics/kitus_adventures/read.php"><h2>Kitus adventures</h2></a>
                     <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Numquam, in?</p>
                     <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Consectetur</p>
                 </article>
-                <article class="homeArt" style="padding: 0; margin: 0;">
-                    <p><img class="comicImg" src="img/logo1.jpg" alt="TestCat"></p>
+                <article class="homeArt right" style="padding: 0; margin: 0;">
+                    <p><img class="comicImg" src="img/logo1.jpg" alt="TestCat" style="max-height: 500px;"></p>
                 </article>
             </div>
         </section>
 
         <section class="comicSection">
             <div class="centerDiv">
-                <article class="homeArt fixUp">
-                    <a class="comSel" href="comics/AFJOR/read.php"><h2>A F$cking jar of RICE</h2></a>
-                    <p>If you like bad humour, poorly drawn characters and dont mind stolen memes...</p>
+                <article class="homeArt fixUp left">
+                    <a class="comSel" href="comics/AFJOR/read.php"><h2>AFJOR</h2></a>
+                    <p>If you like bad humour, poorly drawn characters</p>
+                    <p>and dont mind stolen memes...</p>
                     <p>This might be just for you x3</p>
                 </article>
-                <article class="homeArt" style="padding: 0; margin: 0;">
-                    <p><img class="comicImg" src="img/logo2.jpg" alt="AFJOR"></p>
+                <article class="homeArt right" style="padding: 0; margin: 0;">
+                    <p><img class="comicImg" src="img/logo2.jpg" alt="AFJOR" style="max-height: 500px;"></p>
                 </article>
             </div>
         </section>

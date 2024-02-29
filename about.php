@@ -37,7 +37,8 @@
         <div class="centerDiv">
             <article>
                 <h3>Why are we here ?</h3>
-                <p>Mostly out of boredom</p>
+                <p>Lorem ipsum dolor sit Lorem ipsum, dolor sit amet consectetur adipisicing elit. In, eum.</p>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolorum officiis illo ratione natus?</p>
             </article>
 
         </div>

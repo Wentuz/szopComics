@@ -39,7 +39,7 @@
     padding-top: 0;
 }
 #comicImg{
-    width: 60vw;
+    width: 90%;
 }
 .links{
     size: 50%;
@@ -60,4 +60,10 @@
     width: 50%;
     border: 2px solid white;
     border-radius: 20px;
+}
+.left{
+    float: left;
+}
+.right{
+    float: right;
 }
